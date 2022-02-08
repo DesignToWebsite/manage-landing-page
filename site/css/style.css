@@ -24,7 +24,7 @@ a{
 }
 p{
     color: var(--dark-Grayish-Blue);
-    font-size: 17px;
+    font-size: 16px;
 }
 /**************navbar*************/
 /*********************************/
@@ -116,7 +116,6 @@ a.nav-link:hover{
 }
 .different-content p{
     color: var(--dark-Grayish-Blue);
-    font-size: 17px;
 }
 
 .different-category .item div.num{
@@ -223,12 +222,7 @@ footer input{
 /********** Medium devices only ****/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /****************nav****************/
-    /* .menu-nav {
-        background-color: white;
-        margin: 12px 20px;
-        padding: 1rem;
-    } */
+    
 }
 
 
