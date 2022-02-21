@@ -1,0 +1,20 @@
+.description {
+  .description-text {
+    h1 {
+      font-weight: 700;
+      color: $Very-Dark-Blue;
+      margin-bottom: 0.8em;
+    }
+    p {
+      color: $dark-Grayish-Blue;
+      font-size: 19px;
+      margin-bottom: 1.4em;
+    }
+  }
+  .description-image {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}

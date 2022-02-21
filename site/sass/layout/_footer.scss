@@ -1,0 +1,19 @@
+footer {
+  background-color: $Very-Dark-Blue;
+  ul li {
+    .icon a {
+      color: white;
+    }
+    a {
+      color: $Very-Pale-Red;
+      &:hover {
+        color: $bright-Red;
+      }
+    }
+  }
+  input {
+    border: none;
+    border-radius: 30px;
+    padding: 7px 15px;
+  }
+}

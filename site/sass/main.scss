@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&display=swap");
+
+@import "./utils/variables";
+
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./components/buttons";
+@import "./components/background";
+
+@import "./layout/nav";
+@import "./layout/description";
+@import "./layout/different";
+@import "./layout/simplify";
+@import "./layout/comment.scss";
+@import "./layout/footer";
