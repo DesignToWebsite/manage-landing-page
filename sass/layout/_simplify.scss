@@ -1,0 +1,34 @@
+.simplify {
+  background: url("../images/bg-simplify-section-desktop.svg") hsl(12, 88%, 59%)
+    no-repeat;
+  height: auto;
+  background-position-x: 0px;
+  background-position-y: -50px;
+  z-index: -1;
+  .position {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @include medium-screen {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    span {
+      color: white;
+      font-size: 2.2em;
+      font-weight: 700;
+    }
+    .btn-margin {
+      @include medium-screen {
+        margin: auto;
+      }
+      button.btn-nav {
+        background-color: white;
+        color: $bright-Red;
+        float: right;
+        margin-top: 2em;
+      }
+    }
+  }
+}

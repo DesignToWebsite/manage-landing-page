@@ -1,0 +1,46 @@
+.navbar {
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 1;
+  button {
+    &.navbar-toggler {
+      &:focus {
+        box-shadow: 0;
+        border: none;
+      }
+    }
+  }
+  .menu-nav {
+    @include medium-screen {
+      background-color: white;
+      margin: 12px 20px;
+      padding: 1rem;
+    }
+    ul.navbar-nav {
+      a {
+        &.nav-link {
+          color: $Very-Dark-Blue !important;
+          font-size: 16px;
+          font-weight: 500;
+          &:hover {
+            color: $dark-Grayish-Blue !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.content-page {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.8)
+  );
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}

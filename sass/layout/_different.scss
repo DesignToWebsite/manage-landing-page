@@ -1,0 +1,42 @@
+.different {
+  .different-content {
+    h2 {
+      color: $Very-Dark-Blue;
+      font-weight: 700;
+      margin-bottom: 1em;
+    }
+    p {
+      color: $dark-Grayish-Blue;
+    }
+  }
+  .different-category {
+    .item {
+      div.num {
+        border: 2px solid $bright-Red;
+        background-color: $bright-Red;
+        border-radius: 30px;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 10px;
+        @include small-screen {
+          margin: auto 0;
+          margin-right: 1em;
+          width: 60px;
+          height: auto;
+        }
+      }
+      h3 {
+        color: $Very-Dark-Blue;
+        font-weight: 700;
+        margin-bottom: 0.7em;
+      }
+      .list-category {
+        @include small-screen {
+          background-color: $Very-Pale-Red;
+          padding: 5px 3px !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.btn-nav {
+  border-radius: 30px;
+  padding: 0.3rem 1.5rem;
+  background-color: $bright-Red;
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px;
+  box-shadow: 2px 3px 3px $bright-Red;
+  &:hover {
+    opacity: 0.9;
+    color: white;
+  }
+}
+
+.btn-footer {
+  padding: 7px 20px;
+  border: none;
+  font-weight: 700;
+  border-radius: 30px;
+  color: $Very-Pale-Red;
+  background-color: $bright-Red;
+  &:hover {
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,22 @@
+.comment {
+  .title {
+    text-align: center;
+    font-weight: 700;
+    color: $dark-blue;
+  }
+  .img {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+  }
+  .person {
+    background-color: $Vary-Light-Gray;
+    .name {
+      color: $Very-Dark-Blue;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+  }
+}
